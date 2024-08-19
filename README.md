@@ -9,27 +9,19 @@ This project aims to simulate the use of paragon extract chilling balls. It mode
 
 The heat transfer in spherical coordinates is governed by the following equation:
 
-$`
-\frac{\partial T}{\partial t} = \alpha \left[ \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial T}{\partial r} \right) \right]
-$
+$\frac{\partial T}{\partial t} = \alpha \left[ \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial T}{\partial r} \right) \right]$
 
-where $\alpha = \frac{k}{\rho c}$ is the thermal diffusivity, $k$ is the thermal conductivity, $ \rho $ is the density, and $ c $ is the specific heat capacity.
+where $\alpha = \frac{k}{\rho c}$ is the thermal diffusivity, $k$ is the thermal conductivity, $\rho$ is the density, and $c$ is the specific heat capacity.
 
 ### Boundary Conditions
 
 1. **Center (Symmetry):**
-   $`
-   \frac{\partial T}{\partial r} = 0 \text{ at } r = 0
-   $
+   $\frac{\partial T}{\partial r} = 0 \text{ at } r = 0$
    Approximated by:
-   $`
-   \frac{\partial T}{\partial t} = 6 \cdot \alpha_w \cdot \frac{T[1] - T[0]}{dr^2}
-   $
+   $\frac{\partial T}{\partial t} = 6 \cdot \alpha_w \cdot \frac{T[1] - T[0]}{dr^2}$
 
 2. **Outer Edge (Fixed Temperature):**
-   $`
-   T_{\text{outer}} = 293 \text{ K}
-   $
+   $T_{\text{outer}} = 293 \text{ K}$
 
 3. **Interface Conditions:**
    - **Water to Steel:** Ensure continuity of temperature and heat flux.
