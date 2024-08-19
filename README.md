@@ -65,12 +65,12 @@ Of course, you can simulate back-to-back shots just by using previous results as
 <div style="display: flex; justify-content: space-between;">
 
   <div style="flex: 1; margin-right: 10px;">
-    <img src="-20 degrees/temperatures_apres_etape_1.png" alt="Image 1" style="width: 100%; height: auto;"/>
+    <img src="-20 degrees/temperatures_apres_etape_1.png" alt="Image 1" style="width: 40%; height: auto;"/>
     <p style="text-align: center;">Temperature evolution of a -20°C steel ball from the freezer to the espresso machine.</p>
   </div>
 
   <div style="flex: 1; margin-left: 10px;">
-    <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 100%; height: auto;"/>
+    <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 40%; height: auto;"/>
     <p style="text-align: center;">Temepeture evolution of the system during an espresso shot.</p>
   </div>
 
