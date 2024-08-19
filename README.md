@@ -64,32 +64,16 @@ Of course, you can simulate back-to-back shots just by using previous results as
 
 ## Example
 
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <img src="-20 degrees/temperatures_apres_etape_1.png" alt="Image 1" style="width: 40%; height: auto;"/>
-      <br/>
-      Temperature evolution of a -20°C steel ball from the freezer to the espresso machine.
-    </td>
-    <td style="text-align: center;">
-      <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 40%; height: auto;"/>
-      <br/>
-      Temperature evolution of the system during an espresso shot.
-    </td>
-  </tr>
-</table>
-
-
 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin-right: 20px;">
-    <img src="-20 degrees/temperatures_apres_etape_1.png" alt="Image 1" style="width: 40%; height: auto;"/>
+    <img src="-20 degrees/temperatures_apres_etape_1.png" alt="Image 1" style="width: 60%; height: auto;"/>
     <div>Temperature evolution of a -20°C steel ball from the freezer to the espresso machine.</div>
   </div>
 
   <div style="text-align: center;">
-    <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 40%; height: auto;"/>
+    <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 60%; height: auto;"/>
     <div> Temperature evolution of the system during an espresso shot.</div>
   </div>
 
