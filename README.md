@@ -49,7 +49,7 @@ To generate and view plots for cooldowns and espresso shots, follow these steps:
 python3 cooldown.py
 ```
 
-2. **First Espresso Shot:**
+2. **Espresso Shot:**
 
 - Use the final temperature profile from the cooldown phase as the initial temperature for the espresso shot simulation.
 - Generate the plot to visualize the temperature during the espresso shot phase.
@@ -58,17 +58,23 @@ To run the espresso shot simulation, use
 python3 espresso_shot_simulation.py
 ```
 
-3. **Second Cooldown Phase:**
+Of course, you can simulate back-to-back shots just by using previous results as intial temperatures. Simply adapt the initial conditions and follow the steps described above.
 
-- Use the final temperature profile from the first shot phase as the initial temperature for the paragon ball.
-- Generate the plot to visualize the temperature during the second cooldown.
+## Example
 
-4. **Second Espresso Shot:**
+<div style="display: flex; justify-content: space-between;">
 
-- Finally, use the temperatures obtained from the second cooldown phase as the initial temperature for the second espresso shot simulation.
-- Generate the plot to visualize the temperature during the second espresso shot phase.
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="-20/temperatures_apres_etape_1.png" alt="Image 1" style="width: 100%; height: auto;"/>
+    <p style="text-align: center;">Temperature evolution of a -20°C steel ball from the freezer to the espresso machine.</p>
+  </div>
 
+  <div style="flex: 1; margin-left: 10px;">
+    <img src="-20/temperatures_apres_etape_2.png" alt="Image 2" style="width: 100%; height: auto;"/>
+    <p style="text-align: center;">Temepeture evolution of the system during an espresso shot.</p>
+  </div>
 
+</div>
 
 
 
