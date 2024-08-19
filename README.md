@@ -43,6 +43,7 @@ Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/uneclipse/paragon-heat-transfer.git
 cd paragon-heat-transfer
+```
 
 ## Usage
 
@@ -54,6 +55,7 @@ To generate and view plots for cooldowns and espresso shots, follow these steps:
 - To run the cooldown simulation, use
 ```bash
 python3 cooldown.py
+```
 
 2. **First Espresso Shot:**
 
@@ -62,6 +64,7 @@ python3 cooldown.py
 To run the espresso shot simulation, use
 ```bash
 python3 espresso_shot_simulation.py
+```
 
 3. **Second Cooldown Phase:**
 
