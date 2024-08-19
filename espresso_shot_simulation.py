@@ -21,8 +21,6 @@ T_outer_coffee_initial = 338  # Initial temperature of the outer coffee layer (K
 T_air = 293  # Fixed temperature of the air outside the outer coffee layer (K)
 
 # Time discretization
-dt = 1  # Time step (s)
-time_points = np.arange(0, time_end, dt)
 time_end = 13
 time_points = [0, 0.5, 1, 2, 5, 13]
 
