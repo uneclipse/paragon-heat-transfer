@@ -1,4 +1,4 @@
-# paragon-heat-transfer
+# Paragon Heat Transfer Simulation
 
 
 ## Overview
@@ -17,13 +17,15 @@ where $\alpha = \frac{k}{\rho c}$ is the thermal diffusivity, $k$ is the thermal
 
 1. **Center (Symmetry):**
    $\frac{\partial T}{\partial r} = 0 \text{ at } r = 0$
+   
    Approximated by:
+   
    $\frac{\partial T}{\partial t} = 6 \cdot \alpha_w \cdot \frac{T[1] - T[0]}{dr^2}$
 
-2. **Outer Edge (Fixed Temperature):**
+3. **Outer Edge (Fixed Temperature):**
    $T_{\text{outer}} = 293 \text{ K}$
 
-3. **Interface Conditions:**
+4. **Interface Conditions:**
    - **Water to Steel:** Ensure continuity of temperature and heat flux.
    - **Steel to Outer Water:** Ensure continuity of temperature and heat flux.
 
@@ -71,7 +73,7 @@ Of course, you can simulate back-to-back shots just by using previous results as
 
   <div style="flex: 1; margin-left: 10px;">
     <img src="-20 degrees/temperatures_apres_etape_2.png" alt="Image 2" style="width: 40%; height: auto;"/>
-    <p style="text-align: center;">Temepeture evolution of the system during an espresso shot.</p>
+    <p style="text-align: center;">Temperature evolution of the system during an espresso shot.</p>
   </div>
 
 </div>
